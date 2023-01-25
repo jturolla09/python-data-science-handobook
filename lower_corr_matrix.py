@@ -27,7 +27,8 @@ def print_simplified_correlation_matrix(df, min_correl_coef, correl_method):
 
   # Increase the size of the heatmap.
   plt.figure(figsize=(16, 6))
-  heatmap = sns.heatmap(filtered_corr, vmin=-1, vmax=1, annot=True)
+  color = sns.diverging_palette(20, 230, as_cmap=True)
+  heatmap = sns.heatmap(filtered_corr, vmin=-1, vmax=1, annot=True, cmap = color)
   # Give a title to the heatmap. Pad defines the distance of the title from the top of the heatmap.
   heatmap.set_title('Correlation Heatmap', fontdict={'fontsize':12}, pad=12);
   return
