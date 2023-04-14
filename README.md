@@ -5,6 +5,7 @@ Think of this as a personal "starred code snipets"
 
 # Code Reference:
 
+
 ## 1- Correlation Matrix:
 
   ### Description:
@@ -16,3 +17,16 @@ Think of this as a personal "starred code snipets"
   ### Link:
   
   [lower_corr_matrix.py](https://github.com/jturolla09/python-data-science-handobook/blob/main/lower_corr_matrix.py)
+  
+  
+## 2- Distribution Plot:
+  
+  ### Description:
+  
+  The code creates a seaborn chart with dual axis containing the distribution (with count as stat) and the secondary Y axis is the cumulative distribution shown as percent/proportion of total.
+  
+  ![image](https://user-images.githubusercontent.com/4228950/232036299-47de67cb-79e5-4ab9-b848-46c62e00a2b2.png)
+
+  ### Link:
+  
+  [histogram_plot.py](https://github.com/jturolla09/python-data-science-handobook/blob/main/histogram_plot.py)
