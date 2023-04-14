@@ -25,7 +25,7 @@ Think of this as a personal "starred code snipets"
   
   The code creates a seaborn chart with dual axis containing the distribution (with count as stat) and the secondary Y axis is the cumulative distribution shown as percent/proportion of total.
   
-  ![image](https://user-images.githubusercontent.com/4228950/232036299-47de67cb-79e5-4ab9-b848-46c62e00a2b2.png)
+  ![Screen Shot 2023-04-14 at 09 11 43](https://user-images.githubusercontent.com/4228950/232040318-2bec9054-2d14-4c8f-8cb5-87cff828d698.png)
 
   ### Link:
   
