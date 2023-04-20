@@ -21,7 +21,7 @@ def print_simplified_correlation_matrix(df, min_correl_coef, correl_method):
   filtered_corr = filtered_corr.where(np.tril(np.ones(filtered_corr.shape)).astype(bool))
 
   # Drop all columns that have less then 2 non null values (that means drop when it's just the self correlation = 1)
-  filtered_corr.dropna(axis = 1, how = 'all', thresh = 2, inplace = True)
+  filtered_corr.dropna(axis = 1, thresh = 2, inplace = True)
   # And drop all rows with no correlation anymore
   filtered_corr.dropna(how = 'all', inplace = True)
 
